@@ -1,7 +1,9 @@
 /* EStilos da pagina Index.html*/
 .center {
+    color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    
    
 }
 
@@ -10,7 +12,7 @@
     display: flex;
     flex-flow: row;
     text-align: center;
-    margin-top: 20px;
+    margin-top: auto;
 }
 
 
@@ -48,7 +50,7 @@ a {
     border-right: none;
 }
 
-#homemenu, #homepostagens, #homecontato {
+#homemenu, #homecontato {
    
     text-align: center;
     text-decoration: none;
@@ -59,13 +61,18 @@ a {
 }
 
 p {
-    font-size: 20px;
+    color: white;
+    font-size: 15px;
+   
     
 }
 
 
 body {
+    flex-direction: row;
+    background-color: rgb(12, 11, 11);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
 }
 
 .inativo:hover{
@@ -76,25 +83,113 @@ body {
     background-color:rgb(96, 94, 94);
 }
 
-/* EStilos da pagina postagens.html*/
+.iconesRedes{
 
-.containerpostagem {
     display: flex;
-    flex-flow: row;
+    display: block;
     text-align: center;
-    margin-top: 20px;
-    border-style: outset;
-    border-color: black;
-    margin-right: 400px;
-}
+    border-bottom: 1px solid;
+    width: -100px;
+    padding: 10px;
+    font-size: 50px; color: rgb(255, 255, 255);
+    flex-flow: row;
 
-.titulopostagem{
-    font-size: 25px;
+  
+    
+   
+    
+ 
+   
+    
+
 }
 
 /* EStilos da pagina contato.html*/
 
+/* campo cadastro*/
 .paginacontato{
-    font-size: 25px;
+    color: rgb(231, 225, 225);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    display: flex;
+}
+
+
+.formaluriodecadastro{
+    color: white;
+    flex:1;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    
+    
     
 }
+
+label {
+
+    display: block; /* Isso fará com que o rótulo apareça em uma nova linha */
+    font-weight: bold; /* Deixa o texto em negrito */
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%; /* Ocupa a largura total do contêiner pai */
+    padding: 5px; /* Adiciona um preenchimento interno para melhorar a aparência */
+    border: 1px solid #ccc; /* Adiciona uma borda cinza */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+}
+
+textarea{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.endereco{
+    color: white;
+    flex:1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+iframe{
+    width: 400px; /* Defina a largura desejada para o iframe */
+    height: 250px; /* Defina a altura desejada para o iframe */
+    border: 0;
+    margin-top: -100px; 
+    padding: 80px;
+    border-radius: px;
+}
+
+.iconesRedessociais{
+
+    display: flex;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid;
+    width: -100px;
+    padding: 10px;
+    font-size: 50px; color: rgb(255, 255, 255);
+    flex-flow: row;
+}
+    
+    
+    
+    
+    
+
+    
+    
+
+
+    
+    
+    
+
+
+
+
