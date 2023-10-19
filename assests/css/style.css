@@ -1,0 +1,100 @@
+/* EStilos da pagina Index.html*/
+.center {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+
+.container {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.p-30 {
+    
+    padding: 30px;
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300{
+    width: 350px;
+    height: 350px;
+}
+
+
+#menu {
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}   
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.txtmenu :last-child {
+    border-right: none;
+}
+
+#homemenu, #homepostagens, #homecontato {
+   
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    cursor: pointer;
+    
+    
+}
+
+p {
+    font-size: 20px;
+    
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.inativo:hover{
+    background-color: rgb(66, 62, 62);
+}
+
+.ativo {
+    background-color:rgb(96, 94, 94);
+}
+
+/* EStilos da pagina postagens.html*/
+
+.containerpostagem {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    margin-top: 20px;
+    border-style: outset;
+    border-color: black;
+    margin-right: 400px;
+}
+
+.titulopostagem{
+    font-size: 25px;
+}
+
+/* EStilos da pagina contato.html*/
+
+.paginacontato{
+    font-size: 25px;
+    
+}
