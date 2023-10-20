@@ -1,17 +1,30 @@
 /* EStilos da pagina Index.html*/
 .center {
-    color: white;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    
-   
 }
+
+main{
+    padding-top: 1px;
+    margin-bottom: 2px;
+    background-color: black;
+}
+
+header{
+    border-bottom: 1px solid white;
+    
+}
+    
+.txtsobremim{
+    text-align: justify;
+    
+}
+
 
 
 .container {
     display: flex;
     flex-flow: row;
-    text-align: center;
+    
     margin-top: auto;
 }
 
@@ -26,8 +39,8 @@
 }
 
 .wh-300{
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
 }
 
 
@@ -70,9 +83,10 @@ p {
 
 body {
     flex-direction: row;
-    background-color: rgb(12, 11, 11);
+    background-color: rgb(234, 244, 244);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    color: white;
 }
 
 .inativo:hover{
@@ -107,80 +121,65 @@ body {
 /* EStilos da pagina contato.html*/
 
 /* campo cadastro*/
-.paginacontato{
-    color: rgb(231, 225, 225);
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 
 .container{
     display: flex;
-}
-
-
-.formaluriodecadastro{
-    color: white;
-    flex:1;
-    margin-right: 20px;
-    margin-top: 20px;
-    padding: 10px;
-    
-    
+    flex-flow: row;
+    justify-content: flex;
+    align-items:center;
     
 }
 
-label {
+.formcontato{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 30px;
+    margin: 20px;
 
-    display: block; /* Isso fará com que o rótulo apareça em uma nova linha */
-    font-weight: bold; /* Deixa o texto em negrito */
-    margin-bottom: 5px;
+    
 }
 
-input {
-    width: 100%; /* Ocupa a largura total do contêiner pai */
-    padding: 5px; /* Adiciona um preenchimento interno para melhorar a aparência */
-    border: 1px solid #ccc; /* Adiciona uma borda cinza */
-    border-radius: 5px; /* Adiciona cantos arredondados */
+.centerFormulario{
+   text-align: center;
 }
 
-textarea{
-    border-radius: 5px;
+.corpomapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 11%;
+    margin-bottom: 80px;
+}
+    
+#nome,#email{
     width: 100%;
 }
-
-.endereco{
-    color: white;
-    flex:1;
-    padding: 10px;
-    border-radius: 5px;
+    
+.fotorodape{
+    width: 50px; 
+    height: 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-right: 15px;
+    
 }
-
-iframe{
-    width: 400px; /* Defina a largura desejada para o iframe */
-    height: 250px; /* Defina a altura desejada para o iframe */
-    border: 0;
-    margin-top: -100px; 
-    padding: 80px;
-    border-radius: px;
-}
-
-.iconesRedessociais{
-
-    display: flex;
-    display: block;
+    
+footer{
     text-align: center;
-    border-bottom: 1px solid;
-    width: -100px;
-    padding: 10px;
-    font-size: 50px; color: rgb(255, 255, 255);
-    flex-flow: row;
+    background-color: black;
+    padding: 5px;
+}   
+
+.Error{
+    color: red;
+    display: block;
+    text-align:start;
+    font-size: 10px;
 }
-    
-    
-    
-    
-    
+
+
 
     
     
